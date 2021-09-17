@@ -1,5 +1,35 @@
 /* Write your CSS here! */
+.header{
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
 
+.menu{
+  grid-column: 2;
+}
+
+.sidebar{
+  grid-area: sidebar;
+}
+
+.main{
+  grid-area: main;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 1fr 7fr 7%;
+  grid-template-areas:
+  "header header"
+  "sidebar main"
+  "footer footer";
+}
 /* Do not change the CSS below. */
 
 .header {
