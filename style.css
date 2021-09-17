@@ -9,6 +9,7 @@
 }
 .sidebar {
   grid-area: side;
+  padding-right: 24.88px;
 }
 .footer {
   grid-area: footer;
