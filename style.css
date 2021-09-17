@@ -1,9 +1,24 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main"
+    "footer footer footer footer";
+  grid-template-rows: 100;
+}
 
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+  display: inline;
 }
 
 .logo img {
@@ -30,16 +45,22 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  grid-area: sidebar;
 }
 
 .main {
   background: #ececec;
   height: 750px;
   text-align: center;
+  grid-area: main;
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+  grid-area: footer;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
