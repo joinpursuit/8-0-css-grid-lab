@@ -1,4 +1,22 @@
 /* Write your CSS here! */
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main {
+	grid-column: span 3;
+}
+
+.footer,
+.header {
+	grid-column: span 4;
+}
 
 /* Do not change the CSS below. */
 
@@ -34,7 +52,7 @@
 
 .main {
 	background: #ececec;
-	/* height: 750px; */
+	height: 750px;
 	text-align: center;
 }
 
@@ -42,31 +60,4 @@
 	background: yellow;
 	padding: 10px;
 	text-align: center;
-}
-
-body,
-.header {
-	display: grid;
-	grid-template-columns: repeat (4, 1fr);
-	grid-template-rows: 70px 1080px 40px;
-}
-
-.header {
-	grid-column: span 4;
-}
-
-.main {
-	grid-column: 2/5;
-}
-
-.footer {
-	grid-column: span 4;
-}
-
-.sidebar {
-	grid-column: 1/2;
-}
-
-.menu {
-	grid-column: 2/5;
 }
