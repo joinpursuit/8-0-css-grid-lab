@@ -1,4 +1,31 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+  grid-template-rows: 10fr 85fr 6fr;
+  grid-template-columns: 20% 80%;
+
+  /* 
+    hardcoded height that ended up creating a white space as we readjusted values for grid-template-rows 
+  */
+  
+  /* viewport height */
+  height: 100vh;
+}
+
+/* PURSUIT LOGO & URLS */
+.header {
+  display: grid;
+  grid-template-rows: 100%;
+  /* width of the column */
+  grid-template-columns: 20% 80%;
+  grid-column: 1 / span 2;
+}
+
+/* FOOTER */
+.footer {
+  grid-row: 3;
+  grid-column: 1 / span 2;
+}
 
 /* Do not change the CSS below. */
 
@@ -34,7 +61,7 @@
 
 .main {
   background: #ececec;
-  height: 750px;
+  /* height: 750px; */
   text-align: center;
 }
 
