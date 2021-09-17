@@ -1,5 +1,28 @@
 /* Write your CSS here! */
 
+body {
+  display: grid;
+  grid-template-columns: 2fr 1fr 6fr 1fr;
+  }
+  
+  .header {
+    display: grid;
+    grid-column: span 5;
+    grid-template-columns: 1fr 3.7fr
+  }
+  
+  .sidebar {
+    grid-column: span 1;
+  }
+  
+  .main {
+    grid-column: span 3;
+  }
+
+  .footer {
+    grid-column: span 4;
+  }
+
 /* Do not change the CSS below. */
 
 .header {
