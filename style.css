@@ -1,4 +1,25 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-area: header;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: side;
+}
+.footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "header header header"
+  "side main main"
+  "footer footer footer";
+}
 
 /* Do not change the CSS below. */
 
@@ -36,6 +57,7 @@
   background: #ececec;
   height: 750px;
   text-align: center;
+  
 }
 
 .footer {
@@ -43,3 +65,4 @@
   padding: 10px;
   text-align: center;
 }
+
