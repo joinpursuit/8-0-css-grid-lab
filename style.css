@@ -9,6 +9,7 @@
     grid-template-rows: 100px;
     grid-auto-rows: 100px;
     /* gap: 10px 5px; */
+    position: sticky;
 }
 
 .logo img {
@@ -16,11 +17,10 @@
   /* margin: 15px 0 0 15px; */
   width: auto;
   padding-right: 200px;
-  position: fixed;
 }
 
 .logo {
-padding-right: 300px;
+padding-right: 100px;
 }
 
 .menu ul {
@@ -30,7 +30,8 @@ padding-right: 300px;
 
 .menu ul li {
   display: inline-block;
-  padding: 15px;
+  padding-top: 25px;
+  padding: 20px;
 }
 
 .menu a {
@@ -46,6 +47,11 @@ padding-right: 300px;
   width: 300px;
   height: 750px;
   display: grid;
+  grid-area: si;
+}
+
+.sidebar p{
+  padding
 }
 
 .main {
@@ -54,14 +60,25 @@ padding-right: 300px;
   text-align: center;
   display: grid;
   padding-left: 300px;
+  margin-bottom: 0px;
+
 }
 
 .main p{
   padding-top: 5px;
+  margin: 20px 20px 20px 20px;
+  display: grid;
+}
+
+.main img{
+  text-align: center;
+
 }
 
 .footer {
   background: yellow;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
+  display: grid;
+  padding-bottom: 50px;
 }
