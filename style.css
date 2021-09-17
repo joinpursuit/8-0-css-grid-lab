@@ -1,5 +1,40 @@
 /* Write your CSS here! */
+ /* .header{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.sidebar{
+ columns: 1; 
+}  */
 
+body{
+  display: grid;
+}
+.header{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+ grid-column: 1/4;
+}
+.sidebar{ 
+  grid-column: 1/1;
+}
+.main{
+  grid-column:2/4 ;
+}
+.footer{
+  grid-column: 1/4;
+}
+
+/* .header{
+  grid-area: header;
+  grid-template-areas: ;
+}
+.logo{
+  grid-area: logo;
+}
+.menu{
+  grid-area: menu;
+} */
 /* Do not change the CSS below. */
 
 .header {
