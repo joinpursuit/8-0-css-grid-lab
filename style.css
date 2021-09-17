@@ -4,6 +4,12 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  /* Four columns - 1 fraction */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: 100px;
+  grid-auto-rows: 100pxpx; */
+  gap: 10px 5px;
 }
 
 .logo img {
@@ -17,8 +23,9 @@
 }
 
 .menu ul li {
+  /* display links in a line */
   display: inline-block;
-  padding: 15px;
+  padding: 20px;
 }
 
 .menu a {
@@ -30,12 +37,17 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  position: absolute;
+  width: 300px;
+  height: 100vh;
+  display: grid;
 }
 
 .main {
   background: #ececec;
-  height: 750px;
+  height: 100vh;
   text-align: center;
+  display: grid;
 }
 
 .footer {
