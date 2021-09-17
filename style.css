@@ -14,7 +14,7 @@
 
 .logo img {
   height: 50px;
-  margin: 15px 0 0 15px;
+  margin: 25px 0 0 25px;
   width: auto;
 }
 
@@ -37,15 +37,19 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  /* make position fixed */
   position: absolute;
   width: 300px;
+  /* make full height of viewport */
   height: 100vh;
   display: grid;
 }
 
 .main {
   background: #ececec;
+  /* make full height of viewport */
   height: 100vh;
+    /* Center align */
   text-align: center;
   display: grid;
 }
