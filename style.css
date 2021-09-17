@@ -1,4 +1,38 @@
 /* Write your CSS here! */
+.container {
+  display: grid;
+  grid-template-rows: 1.5fr 14fr 1fr;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.header {
+  display: grid;
+  grid-column: span 7;
+  grid-row: span 1;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.logo {
+  grid-column: span 2;
+}
+
+.menu {
+  grid-column: span 5;
+}
+
+.sidebar {
+  grid-row: 2;
+  grid-column: span 2;
+}
+
+.main {
+  grid-row: 2;
+  grid-column: span 5;
+}
+
+.footer {
+  grid-column: span 7;
+}
 
 /* Do not change the CSS below. */
 
