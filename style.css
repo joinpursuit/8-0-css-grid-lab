@@ -1,9 +1,49 @@
 /* Write your CSS here! */
+/* body{
+  display: grid;
+}
+.sidebar{
+  grid-column: 1 / 2;
+  grid-row: 3 / 3;
+  align-content: left;
+} */
 
+.header{
+  grid-area: header;
+  
+}
+.menu{
+  padding-left: 350px;
+}
+img{
+  position: absolute;
+}
+.main {
+  grid-area: main;
+}
+.sidebar{
+  grid-area: sidebar;
+}
+.footer{
+  grid-area: footer;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 100px 80px 1200px 100px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header"
+  "sidebar sidebar  main "
+  "footer footer footer";
+}
+  
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  
 }
 
 .logo img {
