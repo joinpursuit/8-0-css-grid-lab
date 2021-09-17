@@ -1,5 +1,22 @@
 /* Write your CSS here! */
-
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.sidebar {
+  display: grid;
+  height: 750px;
+  width: 25%;
+  float:left;
+}
+.main {
+  display: grid;
+  float:right;
+  width: 75%;
+}
+.footer {
+  display: grid;
+}
 /* Do not change the CSS below. */
 
 .header {
