@@ -1,5 +1,21 @@
 /* Write your CSS here! */
-
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.header {
+  grid-column: span 4;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main {
+  grid-column: 2 / 5;
+  /* or span 3, also works */
+}
+.footer {
+  grid-column: span 4;
+}
 /* Do not change the CSS below. */
 
 .header {
