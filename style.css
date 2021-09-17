@@ -1,12 +1,13 @@
 /* Write your CSS here! */
 body {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+	grid-template-columns: repeat (4, 1fr);
 }
 
 .header {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .main {
