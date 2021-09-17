@@ -74,7 +74,6 @@ body {
 }
 
 .main {
-  display:inline-block;
   background: #ececec;
   height: 750px;
   text-align: center;
