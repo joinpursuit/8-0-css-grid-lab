@@ -7,9 +7,8 @@
   display: grid;
   /* Four columns - 1 fraction */
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: 100px;
-  grid-auto-rows: 100pxpx; */
-  gap: 10px 5px;
+  row-gap: 10px ;
+  column-gap: 5px;
 }
 
 .logo img {
@@ -56,6 +55,6 @@
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 25px;
   text-align: center;
 }
