@@ -1,5 +1,46 @@
 /* Write your CSS here! */
 
+.header{
+  grid-area: headers;
+  display: grid;
+  grid-template-columns: 280px auto auto;
+  grid-template-areas: "logo menu . ";
+
+}
+.logo{
+  
+  grid-area: logo;
+  
+} 
+ .menu {
+  grid-area: menu;
+  grid-column-start: auto;
+  grid-column-end: auto;
+
+  
+}  
+ .sidebar{
+  grid-area: sidebars;
+ 
+} 
+.main{
+  grid-area: mains;
+  
+}
+.footer{
+  grid-area: footers;
+}
+body {
+  display: grid;
+  grid-template-columns: 280px auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "headers headers headers"
+  "sidebars mains mains"
+  "footers footers footers";
+
+} 
+
 /* Do not change the CSS below. */
 
 .header {
@@ -33,6 +74,7 @@
 }
 
 .main {
+  display:inline-block;
   background: #ececec;
   height: 750px;
   text-align: center;
