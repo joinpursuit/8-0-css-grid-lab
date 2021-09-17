@@ -3,7 +3,11 @@
 /* Do not change the CSS below. */
 
 .header {
+  display: grid;
+  grid-template-columns: 30% 70%;
   background: #4242ea;
+  grid-column: span 2;
+  justify-items: left;
 }
 
 .logo img {
@@ -42,4 +46,15 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+  /* align-items: center; */
+  grid-column: span 2;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-auto-rows: minmax(0px, auto); 
+  /* justify-items: stretch; */
+  /* align-items: stretch;
+  
 }
