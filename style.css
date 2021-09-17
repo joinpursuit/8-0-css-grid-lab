@@ -1,4 +1,49 @@
-/* Write your CSS here! */
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.header {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.footer {
+  grid-column: span 4;
+}
+.main {
+  grid-column: span 3;
+}
+.logo {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10%;
+  background-color: rgba(90, 5, 76, 0.721);
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+  background-color: rgba(90, 5, 76, 0.721);
+}
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+} 
+.sidebar {
+
+
+}
+
+
 
 /* Do not change the CSS below. */
 
