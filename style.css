@@ -19,7 +19,6 @@ h2 {
   margin-bottom:0.2em;
   width:100%;
   text-align: center;
-  
 }
 
 .logo img {
@@ -69,9 +68,11 @@ h2 {
 }
 .sidebar div {
   padding-top: 40px;
+  margin: 1px;
 }
 .sidebar div:hover {
-
+ text-decoration: solid;
+ text-decoration-color: darkgrey;
 }
 
 .main {
