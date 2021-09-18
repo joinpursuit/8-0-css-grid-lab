@@ -25,7 +25,7 @@ body {
 
 .header {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 241px 241px 241px auto;
   grid-column: 1/5;
   grid-row: 1/2;
 }
@@ -35,7 +35,7 @@ body {
   grid-row: 1/2;
 }
 .menu {
-  grid-column: 2/4;
+  grid-column: 2/5;
   grid-row: 1/2;
 }
  
