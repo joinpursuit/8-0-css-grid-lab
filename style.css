@@ -1,5 +1,44 @@
 /* Write your CSS here! */
 
+
+body{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+}
+
+.sidebar{
+  display: grid;
+  width: 100%;
+  float: left
+}
+
+.main p{
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.main{
+  display: grid;
+}
+
+
+.header{
+  display: grid;
+  grid-column: 1/3;
+  grid-template-columns: 1fr 3fr;
+}
+
+.footer{
+  grid-column: span 2;
+}
+
 /* Do not change the CSS below. */
 
 .header {
