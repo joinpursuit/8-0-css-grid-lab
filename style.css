@@ -19,6 +19,7 @@
 .menu ul li {
   display: inline-block;
   padding: 15px;
+
 }
 
 .menu a {
@@ -42,4 +43,43 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  
+}
+
+.sidebar {
+  grid-column: span 1;
+}
+
+.main {
+  grid-column: span 3;
+}
+
+.header {
+  grid-column: span 4;
+}
+
+.footer {
+  grid-column: span 4;
+}
+
+.logo img {
+  height: 50px;
+  margin: 15px 0 0 15px;
+  width: auto;
+}
+
+.menu ul {
+  padding: 0;
+ 
+}
+
+.menu a {
+  display: inline-block;
+  padding: 15px;
+  grid-column:3/4;
 }
