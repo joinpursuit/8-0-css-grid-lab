@@ -1,5 +1,42 @@
 /* Write your CSS here! */
 
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.header {
+  display: grid;
+  grid-row: span 1;
+  grid-column: span 5;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.logo {
+  grid-column: span 1;
+  grid-row: span;
+}
+
+.menu {
+  grid-column: span 4;
+}
+
+.sidebar {
+  grid-row: span 8;
+}
+
+.main {
+  grid-column: span 4;
+  grid-row: span 8;
+}
+
+.footer {
+  grid-column: 1 / 3;
+  grid-row: span 5;
+  grid-column: span 5;
+}
+
 /* Do not change the CSS below. */
 
 .header {
