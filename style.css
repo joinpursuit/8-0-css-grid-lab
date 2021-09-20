@@ -1,4 +1,28 @@
+
 /* Write your CSS here! */
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr; 
+}
+.header {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1 / 3;
+  grid-template-columns: 1fr 3fr; 
+}
+.sidebar {
+  grid-column: 1;
+  grid-row:  2;
+}
+.main {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+.footer {
+  grid-row: 4;
+  grid-column: 1 / 3;
+}
+
 
 /* Do not change the CSS below. */
 
@@ -10,6 +34,7 @@
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+
 }
 
 .menu ul {
