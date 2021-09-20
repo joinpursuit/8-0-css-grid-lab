@@ -1,5 +1,28 @@
 /* Write your CSS here! */
 
+
+body {
+  display: grid;
+  grid-template-columns: 300px 100px 1000px 100px;
+  }
+  
+  .header {
+    display: grid;
+    grid-column: span 5;
+    grid-template-columns: 1fr 14fr;
+  }
+  
+  .main {
+    display: grid;
+    grid-column: span 3;
+  }
+
+  .footer {
+    display: grid;
+    grid-column: span 4;
+  }
+
+
 /* Do not change the CSS below. */
 
 .header {
@@ -13,7 +36,7 @@
 }
 
 .menu ul {
-  padding: 0;
+  padding-left: 400px;
 }
 
 .menu ul li {
@@ -43,3 +66,6 @@
   padding: 10px;
   text-align: center;
 }
+
+
+
