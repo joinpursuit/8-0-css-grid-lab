@@ -1,5 +1,27 @@
 /* Write your CSS here! */
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header {
+  grid-template-rows: auto;
+}
+
+.menu {
+  grid-auto-columns: initial;
+}
+
+.main {
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+}
+
+.footer {
+}
+
 /* Do not change the CSS below. */
 
 .header {
