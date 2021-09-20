@@ -1,5 +1,5 @@
 :root{
-  --main-radius:5px;
+  --main-radius:1px;
   --main-padding:5px;
 }
 /* Reusable variable accessed later on in our file */
@@ -11,12 +11,11 @@
   grid-template-columns: 1fr 500px 1fr 1fr;
   grid-template-rows: 0.2fr 2fr 0.5fr 0.4fr;
   grid-template-areas:
-   "nav nav nav nav"
+   "logo nav nav nav"
    "sidebar main main main"
    "sidebar main main main"
    "footer footer footer footer";
    /* grid template */
-   grid-gap: 0.2rem;
    font-weight: 800;
    text-transform: uppercase;
    font-family:sans-serif;
@@ -31,15 +30,24 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-nav ul{
-  display:grid;
+nav li{
+  display: inline;
   grid-area: nav;
-  padding: 0px
+  padding: 30px;
+  list-style: none;
+  margin: 25px;
 }
 
 nav img{
+  background-color: #4242ea;
+  grid-area: logo;
   height: 100px;
   padding-top: 10px;
+}
+
+#logo{
+  background-color: #4242ea;
+  grid-area:logo;
 }
 
 #sidebar{
@@ -48,6 +56,9 @@ nav img{
   grid-area: sidebar;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
+  text-align: center;
+  list-style: none;
+  display: grid;
 }
 
 #main{
@@ -56,7 +67,9 @@ nav img{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
-
+#main p{
+  margin: 10px;
+}
 footer{
   background-color:yellow;
   grid-area: footer;
@@ -66,6 +79,7 @@ footer{
 
 footer a{
   margin: 10px;
+  color: black;
 }
 
 @media only screen and (max-width:550px){
@@ -73,6 +87,7 @@ footer a{
       grid-template-columns: 1fr;
       grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr;
       grid-template-areas:
+      "logo"
       "nav"
       "sidebar"
       "main"
