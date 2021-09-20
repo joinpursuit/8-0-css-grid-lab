@@ -4,6 +4,10 @@
 }
 /* Reusable variable accessed later on in our file */
 
+body {
+  margin: 0; /* prevents scrollbars */
+}
+
 .container{
   display:grid;
   height:100vh; 
@@ -19,6 +23,7 @@
    font-weight: 800;
    text-transform: uppercase;
    font-family:sans-serif;
+   font-size: 14px;
    color:black;
    text-align:center;
 }
@@ -74,11 +79,16 @@ nav img{
 #main p{
   margin: 10px;
 }
+
+#main img{
+  height:200px;
+}
 footer{
   background-color:yellow;
   grid-area: footer;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
+  position: sticky;
 }
 
 footer a{
