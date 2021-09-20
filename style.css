@@ -13,12 +13,10 @@ body {
   }
   
   .main {
-    display: grid;
     grid-column: span 3;
   }
 
   .footer {
-    display: grid;
     grid-column: span 4;
   }
 
