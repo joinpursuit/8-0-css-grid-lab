@@ -8,23 +8,16 @@ html, body {
   width: 100%;
   height: 100%;
   margin:0;
-}
-
-article {
   min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100%;
-  min-width:1200px;
-  max-height: 1200px;
+  max-height: 100%;
 }
 
 .container{
   display:grid;
   height:100vh; 
   /* viewport height */
-  grid-template-columns: 1fr 800px 1fr 1fr;
-  grid-template-rows: 0.2fr 2fr 0.5fr 0.4fr;
+  grid-template-columns: 1fr 500px 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
   grid-template-areas:
    "logo nav nav nav"
    "sidebar main main main"
@@ -48,7 +41,7 @@ nav{
 nav li{
   display: inline;
   grid-area: nav;
-  padding: 30px;
+  padding: 8px;
   list-style: none;
   margin: 25px;
 }
@@ -81,9 +74,9 @@ nav img{
   display: grid;
 }
 
-#sidebar a{
+/* #sidebar a{
   color: white;
-}
+} */
 
 #sidebar a.button:hover{
   background-color: #4242ea;
@@ -110,27 +103,46 @@ a:active { text-decoration: none; }
   grid-area: main;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
+  display: grid;
+  flex: 1 1 0;
+  text-align: center;
+  height: 100%;
 }
 #main p{
-  margin: 10px;
+  margin: 200px;
 }
 
 #main img{
   height:200px;
   margin: 40px;
-  position: relative;
 }
+
+#contentone{
+  display: grid;
+  grid-area: contentone;
+  height:200px;
+  margin: 40px;
+}
+
+#contenttwo{
+  display: grid;
+  grid-area: contenttwo;
+  height:200px;
+  margin: 40px;
+}
+
 footer{
   background-color:yellow;
   grid-area: footer;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-  position: relative;
+  position:sticky;
+  height: 15;
+  padding-top: 50px;
 }
 
-footer a{
-  margin: 10px;
+a{
+
   color: black;
+  
 }
 
 @media only screen and (max-width:380px){
