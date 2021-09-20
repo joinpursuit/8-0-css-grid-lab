@@ -3,11 +3,7 @@
 /* Do not change the CSS below. */
 
 .header {
-  display: grid;
-  grid-template-columns: 30% 70%;
   background: #4242ea;
-  grid-column: span 2;
-  justify-items: left;
 }
 
 .logo img {
@@ -37,7 +33,7 @@
 }
 
 .main {
-  background: #ececec;
+  background: #eceaea;
   height: 750px;
   text-align: center;
 }
@@ -45,16 +41,37 @@
 .footer {
   background: yellow;
   padding: 10px;
-  text-align: center;
-  /* align-items: center; */
-  grid-column: span 2;
 }
 
+
+
+/* Below are the codes we added */
 body {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-auto-rows: minmax(0px, auto); 
-  /* justify-items: stretch; */
-  /* align-items: stretch;
+   grid-auto-rows: minmax(50px, auto);  
+  justify-items: stretch;
+  align-items: stretch;
+  min-height: 100vh;
   
+}
+
+.footer {
+  text-align: center;
+  grid-column: span 2; 
+}
+
+.sidebar {
+  grid-row: span 2;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column: span 2 ; 
+  justify-items: left;
+}
+
+.main {
+  grid-row: span 2;
 }
