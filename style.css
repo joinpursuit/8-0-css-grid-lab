@@ -1,4 +1,46 @@
 /* Write your CSS here! */
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr ;
+    grid-template-rows: minmax(100px auto);
+    
+  }
+
+.header{
+   grid-column:span 3;
+   display:grid;
+   grid-template-columns: 1fr 1fr 2fr;
+}
+
+.header.menu ul{
+  grid-column: 2/3;
+}
+
+.logo{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  
+}
+
+
+.sidebar{
+  grid-column: span 1;
+}
+
+.main{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.footer{
+  grid-column: span 3;
+}
+
+.menu{
+  grid-column: 3/2
+}
+
+
 
 /* Do not change the CSS below. */
 
