@@ -1,3 +1,40 @@
+
+.header {
+  grid-area: header;
+}
+
+img {
+  position: absolute;
+}
+
+.menu {
+  padding-left: 350px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header"
+  "sidebar main"
+  "footer footer";
+}
+
+
+
 /* Write your CSS here! */
 
 /* Do not change the CSS below. */
