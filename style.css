@@ -1,17 +1,17 @@
 /* Write your CSS here! */
-body {
-  display: grid;
-}
+
 .header {
   display: grid;
 }
 .menu {
   grid-row: 1;
-  grid-column: 2 / 4;
+  grid-column: 2 / span 2;
+  /* or 2 / 4 */
 }
 .primary-content {
   display: grid;
 }
+/* primary-content includes sidebar and main */
 .main {
   grid-column: 2 / 5;
 }
