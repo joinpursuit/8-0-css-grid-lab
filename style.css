@@ -1,4 +1,20 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+}
+.header {
+  display: grid;
+}
+.header .menu {
+  grid-row: 1;
+  grid-column: 2 / 4;
+}
+.primary-content {
+  display: grid;
+}
+.main {
+  grid-column: 2 / span 3;
+}
 
 /* Do not change the CSS below. */
 
