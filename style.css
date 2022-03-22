@@ -1,4 +1,23 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  /* justify-content: left; */
+}
+
+.menu {
+  grid-row: 1;
+  grid-column: 2 / span 2;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
+.main {
+  display: grid;
+  /* grid-column: 2 / span 3; */
+}
 
 /* Do not change the CSS below. */
 
