@@ -1,4 +1,26 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+}
+.header {
+  display: grid;
+}
+.menu {
+  grid-row: 1;
+  grid-column: 2 / 4;
+}
+.primary-content {
+  display: grid;
+}
+.main {
+  grid-column: 2 / 5;
+}
+.footer{
+  display: grid;
+  grid-row: 3;
+  /* not really necessary but grid-row 1 puts it at the top,2 puts it in the middle, 3 at the bottom */
+}
+
 
 /* Do not change the CSS below. */
 
