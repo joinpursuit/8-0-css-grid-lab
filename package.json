@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  },
+  "dependencies": {
+    "cy": "^0.0.1"
+  }
+}

@@ -2,28 +2,50 @@
 
 /* Do not change the CSS below. */
 
+body {
+  display: grid;
+}
 .header {
   background: #4242ea;
+  display: inline-grid;
+  grid-row: 1;
+  grid-column: 1/4;
+  grid-column-gap: 0;
+  grid-template-areas: "logo tabs";
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-end: 1;
+  grid-area: logo;
 }
 
 .menu ul {
   padding: 0;
+  grid-column-start: 2;
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  grid-column-start: 2;
+}
+
+/* I made this one*/
+.menu {
+  grid-column-start: 2;
+  grid-column-end: auto;
+  grid-area: tabs;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
+  grid-column-start: 2;
 }
 
 .sidebar {
@@ -38,8 +60,16 @@
   text-align: center;
 }
 
+/* I made this one*/
+.main {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+  grid-column: 1/4;
+  grid-row: 3;
 }
