@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  display: grid;
+  display: inline grid;
   grid-column: 1/3;
 }
 
