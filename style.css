@@ -13,10 +13,6 @@ body {
   display: grid;
   grid-column: 1/3;
 }
-.primary-content {
-  display: grid;
-  grid-template-columns: 1fr 3 fr;
-}
 
 .footer {
   grid-column: 1/3;
