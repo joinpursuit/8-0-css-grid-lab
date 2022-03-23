@@ -1,4 +1,16 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.primary-content {
+  display: grid;
+}
+
+.main {
+  grid-column: 2 / span 4;
+}
 
 /* Do not change the CSS below. */
 
