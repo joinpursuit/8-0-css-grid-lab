@@ -4,16 +4,20 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-rows: 5px;
+  display: flex;
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
-  width: auto;
+  width: 50px;
 }
 
 .menu ul {
   padding: 0;
+  text-indent: 110px;
 }
 
 .menu ul li {
@@ -30,16 +34,26 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  display: grid;
+  grid-area: side;
 }
 
 .main {
   background: #ececec;
   height: 750px;
+  width: 1200px;
   text-align: center;
+  display: grid;
+  grid-area: main;
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-areas: "side main";
 }
