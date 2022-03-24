@@ -1,7 +1,11 @@
 /* Write your CSS here! */
+/* html, body {
+  height: 100%;
+} */
+
 #mainContainer {
   display: grid;
-  /* height: auto; */
+  /* height: 100%; */
   grid-template-areas: 
     "a a a a a a a a"
     "c c c c c c c c"
