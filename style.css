@@ -1,9 +1,40 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+   
+}
+.header {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+ 
+ 
+}
+.menu {
+  margin-left: 100px;
+}
+.primary-content {
+  display: flex;
+  
+  
+}
+.sidebar{
+ flex: 1;
+ 
+}
+.main{
+ flex: 3;
+}
+
+
+
+
 
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+ 
+
 }
 
 .logo img {
