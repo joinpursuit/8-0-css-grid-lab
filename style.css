@@ -1,11 +1,15 @@
 /* Write your CSS here! */
+
+/* creates a display grid for the class header */
 .header {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  /* creates a grid of colums broken down into fractions of the page */
+  grid-template-columns: 1fr 5fr;
 }
-
+/* creates a display grid for the parent class with the children "main' and "sidebar" */
 .primary-content {
   display: grid;
+   /* creats a grid of columns broken down into fractions of the page */
   grid-template-columns: 1fr 3fr;
 }
 /* Do not change the CSS below. */
@@ -44,6 +48,7 @@
 
 .main {
   background: #ececec;
+  /* changes the height to 75% of the view  */
   height: 750vh;
   text-align: center;
 }
