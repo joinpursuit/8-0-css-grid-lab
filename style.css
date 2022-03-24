@@ -1,5 +1,14 @@
 /* Write your CSS here! */
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
 /* Do not change the CSS below. */
 
 .header {
