@@ -1,4 +1,43 @@
 /* Write your CSS here! */
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-areas:
+    "a a a a a a"
+    "b b b b b b"
+    "b b b b b b"
+    "e e e e e e";
+
+  padding: 20px;
+  height: 90vh;
+}
+.header {
+  grid-area: a;
+  min-height: 125px;
+}
+.menu {
+  text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-area: b;
+  grid-template-areas:
+    "j j k k k k"
+    "j j k k k k";
+}
+.sidebar {
+  grid-area: j;
+}
+.logo img {
+  text-align: left;
+}
+.main {
+  grid-area: k;
+}
+.footer {
+  grid-area: e;
+}
 
 /* Do not change the CSS below. */
 
