@@ -1,5 +1,45 @@
 /* Write your CSS here! */
 
+body{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+.header{
+  display: grid;
+  grid-column: 1/5; 
+  /* Kalilah's code: grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.logo{
+  grid-column: 1/2;
+}
+
+.menu{
+  grid-column: 2/5;
+}
+
+.primary-content{
+  display: grid;
+  grid-column: 1/5;
+  /* Kalilah's code:grid-template-columns: 1fr 2fr; */
+}
+
+.sidebar{
+  grid-column: 1 / 2;
+  height: 750px;
+}
+
+.main{
+  grid-row: 1;
+  grid-column: 2/5;
+}
+
+.footer{
+  grid-column: 1/5;
+}
+
 /* Do not change the CSS below. */
 
 .header {
