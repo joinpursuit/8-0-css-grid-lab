@@ -1,5 +1,29 @@
 /* Write your CSS here! */
 
+.header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+}
+
+.footer {
+  grid-row: 3;
+  grid-column: 1/6;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sidebar {
+  grid-column:1/2;
+}
+
+.main {
+  grid-column: 2/6;
+}
+
 /* Do not change the CSS below. */
 
 .header {
