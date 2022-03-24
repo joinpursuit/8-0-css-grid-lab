@@ -1,6 +1,26 @@
 /* Write your CSS here! */
+body {
+display: grid
+}
+.header {
+grid-template-columns: repeat(4, 1fr);
+display: flex;
+}
+.menu {
+  margin-left: 150px
+}
+.primary-content{
+display: flex
+}
+.sidebar {
+  flex: 1
+}
+.main {
+  flex: 3
+}
 
 /* Do not change the CSS below. */
+
 
 .header {
   background: #4242ea;
