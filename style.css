@@ -4,6 +4,8 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .logo img {
@@ -26,6 +28,11 @@
   text-decoration: none;
 }
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 .sidebar {
   background: #2d2d2d;
   color: white;
@@ -34,7 +41,7 @@
 
 .main {
   background: #ececec;
-  height: 750px;
+  height: 700px;
   text-align: center;
 }
 
