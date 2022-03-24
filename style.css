@@ -1,19 +1,27 @@
 /* Write your CSS here! */
 
 /* Do not change the CSS below. */
+body {
+  display: grid;
+}
 
 .header {
-  background: #4242ea;
+  background: hsl(240, 80%, 59%);
+  display: grid;
+  grid-template-areas: 
+  "a b b b b";
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  grid-area: a;
 }
 
 .menu ul {
   padding: 0;
+  grid-area: b;
 }
 
 .menu ul li {
@@ -26,16 +34,23 @@
   text-decoration: none;
 }
 
+.primary-content {
+  display: grid;
+  grid-template-areas:
+  "a b b b b";
+}
 .sidebar {
   background: #2d2d2d;
   color: white;
   text-align: center;
+  grid-area: a;
 }
 
 .main {
   background: #ececec;
   height: 750px;
   text-align: center;
+  grid-area: b;
 }
 
 .footer {
