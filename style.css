@@ -1,4 +1,49 @@
 /* Write your CSS here! */
+#mainContainer {
+  display: grid;
+  /* height: 100%; */
+  grid-template-areas: 
+    "h h h h h h h h"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "f f f f f f f f";
+}
+
+.header {
+  grid-area: h;
+  display: grid;
+  grid-template-areas:
+    "logo menu menu menu menu menu" ;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.primary-content {
+  grid-area: b;
+  display: grid;
+  grid-template-areas: 
+    "l r r r r r r";
+}
+.sidebar {
+  grid-area: l;
+}
+
+.main {
+  grid-area: r;
+}
+
+.footer {
+  grid-area: f;
+}
 
 /* Do not change the CSS below. */
 
