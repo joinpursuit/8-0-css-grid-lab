@@ -1,4 +1,31 @@
 /* Write your CSS here! */
+.header{
+  grid-column: 1/5;
+
+}
+.sidebar{
+  grid-column: 1 / 2;
+  height: 750;
+}
+
+.footer{
+  grid-column: 1/5;
+}
+
+.main{
+grid-row: 1;
+grid-column: 2/5;
+}
+body{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+}
+
+.primary-content{
+  grid-column:1/5 ;
+  display: grid;
+}
 
 /* Do not change the CSS below. */
 
