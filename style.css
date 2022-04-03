@@ -1,5 +1,27 @@
 /* Write your CSS here! */
+header{
+  display: grid;
+  grid-template-columns: .2fr 1fr;
+  grid-template-rows: 90px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 
+.primary-content{
+  display: grid;
+  grid-template-columns: .175fr 1fr;
+  grid-template-rows: 750px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 /* Do not change the CSS below. */
 
 .header {
@@ -30,6 +52,8 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  display: grid;
+  grid-area: 1;
 }
 
 .main {
