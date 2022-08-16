@@ -1,5 +1,6 @@
 /* Write your CSS here! */
 .primary-content {
+  /*!access the Sidebar */
   display: grid;
   /* grid-template-areas: "headrer header"
 "sidebar content"
@@ -12,14 +13,24 @@
   grid-template-columns: 1fr 2fr 1fr ;
   /* grid-auto-rows: 100px; */
 }
-.menu {
+.main p{
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+/* .menu { */
   /* display: grid; */
-  /*? to eliminate the gap between header, main and sidebar */
+  /*? margin To eliminate the gap between header, main and sidebar */
   /* margin: -16px; */
   /* grid-column: 2 / span 4; */
- } 
+ /* }  */
 /* .footer{
-text-align: top;
+text-align: center;
 } */
 /* .main{
   grid-column: 2/ span 4  ;
