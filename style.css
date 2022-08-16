@@ -1,5 +1,19 @@
 /* Write your CSS here! */
 
+.primary-content{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.menu{
+  grid-column: 2/span4;
+}
+
+.header{
+  display: grid;
+  grid-auto-rows: 80px;
+}
+
 /* Do not change the CSS below. */
 
 .header {
