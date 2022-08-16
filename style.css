@@ -3,6 +3,8 @@
 /* Do not change the CSS below. */
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   background: #4242ea;
 }
 
@@ -42,4 +44,9 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
