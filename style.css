@@ -12,10 +12,10 @@ grid-template-columns: 1fr 2fr;
   grid-column: 2/3fr;
 }  */
 
-/* .primary-content {
+.primary-content {
   display: grid;
-  grid-template-columns: 1fr 2fr ;
-} */
+  /* grid-template-columns: 1fr 2fr ; */
+}
 
 
 /* Do not change the CSS below. */
