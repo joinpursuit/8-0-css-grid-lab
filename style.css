@@ -4,6 +4,11 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu{
+  grid-column: span 2;
 }
 
 .logo img {
@@ -24,6 +29,11 @@
 .menu a {
   color: white;
   text-decoration: none;
+}
+
+.primary-content{
+  display: grid;
+  grid-template-columns: 200px 1200px;
 }
 
 .sidebar {
