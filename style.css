@@ -1,45 +1,75 @@
 /* Write your CSS here! */
 
+.primary-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header {
+    display: grid;
+    grid-auto-rows: 80px;
+}
+
+.menu {
+    grid-column: 2/span4;
+}
+
+
+/* .main {
+  grid-template-columns: span 3; 
+     grid-column: span3;
+    grid-row: span 3;
+} */
+
+
+/* .sidebar {
+    grid-template-columns: span3;
+    grid-column: span2;
+    grid-template-rows: span2; 
+    margin: -auto;
+} */
+
+
 /* Do not change the CSS below. */
 
 .header {
-  background: #4242ea;
+    background: #4242ea;
 }
 
 .logo img {
-  height: 50px;
-  margin: 15px 0 0 15px;
-  width: auto;
+    height: 50px;
+    margin: 15px 0 0 15px;
+    width: auto;
 }
 
 .menu ul {
-  padding: 0;
+    padding: 0;
 }
 
 .menu ul li {
-  display: inline-block;
-  padding: 15px;
+    display: inline-block;
+    padding: 15px;
 }
 
 .menu a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar {
-  background: #2d2d2d;
-  color: white;
-  text-align: center;
+    background: #2d2d2d;
+    color: white;
+    text-align: center;
 }
 
 .main {
-  background: #ececec;
-  height: 750px;
-  text-align: center;
+    background: #ececec;
+    height: 750px;
+    text-align: center;
 }
 
 .footer {
-  background: yellow;
-  padding: 10px;
-  text-align: center;
+    background: yellow;
+    padding: 10px;
+    text-align: center;
 }
