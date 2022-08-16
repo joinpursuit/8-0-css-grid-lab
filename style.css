@@ -1,5 +1,25 @@
 /* Write your CSS here! */
 
+.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+}
+.logo {
+  grid-column: 1/2;
+}
+.menu{
+  grid-column: 2/3;
+}
+.primary-content{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+}
+.sidebar{
+ grid-column: 1fr;
+}
+.main{
+grid-column: 2fr;
+}
 /* Do not change the CSS below. */
 
 .header {
