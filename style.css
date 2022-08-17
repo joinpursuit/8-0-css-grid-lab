@@ -4,7 +4,9 @@
 
 .header {
   background: #4242ea;
-}
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+} 
 
 .logo img {
   height: 50px;
@@ -42,4 +44,9 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
