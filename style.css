@@ -9,13 +9,6 @@
   grid-template-columns: 1fr 3fr;
 }
 
-/* .sidebar {
-  display: grid;
-  grid-row: 2;
-  grid-column-start: 1;
-  grid-column-start: 1;
-} */
-
 .footer {
   position: fixed; 
   bottom: 0;
