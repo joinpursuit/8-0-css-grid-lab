@@ -43,3 +43,13 @@
   padding: 10px;
   text-align: center;
 }
+
+.header {
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.primary-content {
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+}
