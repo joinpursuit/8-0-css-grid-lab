@@ -1,4 +1,36 @@
 /* Write your CSS here! */
+.header { 
+  display: grid;
+  grid-template-columns: 130px 400px;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-auto-rows: minmax(100px, auto);
+  min-height: 100%;
+}
+
+.footer {
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1fr;
+}
+/* 
+.sidebar {
+grid-auto-rows: 100px;
+display: grid;
+grid-template-columns: 100px;
+} */
+
+.logo {
+  display: grid;
+grid
+}
+
+
 
 /* Do not change the CSS below. */
 
