@@ -1,4 +1,19 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.menu {
+  grid-column: span 3;
+
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3 fr;
+}
+
 
 /* Do not change the CSS below. */
 
