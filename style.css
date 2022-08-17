@@ -1,7 +1,7 @@
 /* Write your CSS here! */
-.primary-content {
+.primary-content
   /*!access the Sidebar */
-  display: grid;
+  display: grid;{
   /* grid-template-areas: "headrer header"
 "sidebar content"
 "main content"; */
@@ -13,9 +13,29 @@
   grid-template-columns: 1fr 2fr 1fr ;
   /* grid-auto-rows: 100px; */
 }
-.main p{
+
+
+ /* ? CLASS REVIEW */
+ /*! allows us to include the padding and border in an element's total width and height to everyting */
+ *{
+   box-sizing: border-box;
+   /* !eliminate gaps with margin */
+   margin: 0;
+ }
+ /* body{
+ } */
+ /*! combine both header and primary content.. they both have the same rules.  */
+ .header, .primary-content{
+  display: grid;
+  /*! auto, takes up the rest of the space.. otherwise add values to equal 100% */
+  grid-template-columns: 30% auto;
+}
+/* ? */
+.footer,.sidebar, .primary-content{
   animation: blinkingText 1.2s infinite;
 }
+
+
 @keyframes blinkingText{
     0%{     color: #000;    }
     49%{    color: #000; }
