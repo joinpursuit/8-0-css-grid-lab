@@ -1,9 +1,97 @@
 /* Write your CSS here! */
 
+body{
+  padding:0;
+  margin:0;
+  display:grid;
+ grid-template-rows: auto auto auto;
+  grid-template-columns:auto auto auto ;
+
+}
+.header{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  z-index: 500;
+  text-align: center;
+  display: flex; 
+  align-items: center;
+}
+
+.sidebar{
+  
+  grid-row-start: 2;
+  grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    z-index: 100;
+    padding-bottom: 900px;
+
+
+}
+
+.footer{
+grid-row-start: 3;
+grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.main{
+  grid-row-start: 2;
+  grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-column: 1/4;
+}
+
+.menu{
+color:#4242ea;
+padding-left: 70px;;
+}
+.logo{
+  text-align: left;
+}
+
+
+
+
+/* .logo{
+padding-left: 10px;
+align-items: left;}
+
+.menu li{
+  text-align: center;
+padding: 0px;
+margin:0px;
+display:inline-block;
+vertical-align: top;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  line-height:70px;
+  padding:5px 15px;
+}
+
+.menu{
+  list-style: none;
+  margin:0;
+  background-color: #4242ea;
+  height:80px;
+  padding-bottom: 10px;;
+  
+}  */
+
+
+
+
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
+  height: 80px;
 }
 
 .logo img {
