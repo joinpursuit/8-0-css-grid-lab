@@ -1,4 +1,24 @@
 /* Write your CSS here! */
+div.header{
+  /* display:flex;
+  text-align: center;
+  justify-content: flex-end; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+
+div.primary-content{
+  display:grid;
+  grid-template-columns:1fr 3fr;
+}
+div.menu{
+/* padding-bottom: 50px; */
+  /* text-align: center; */
+  /* justify-content: flex-end; */
+}
+  
 
 /* Do not change the CSS below. */
 
