@@ -2,8 +2,15 @@
 
 /* Do not change the CSS below. */
 
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr
+}
+
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr
 }
 
 .logo img {
@@ -42,4 +49,9 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 
 }
