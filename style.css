@@ -1,5 +1,29 @@
 /* Write your CSS here! */
 
+.logo {
+  text-align: left;
+}
+.header {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+}
+/* .menu ul li a {
+  vertical-align: middle;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+}
+.primary-content p {
+  height: 30px;
+  vertical-align: ;
+}
+
 /* Do not change the CSS below. */
 
 .header {
