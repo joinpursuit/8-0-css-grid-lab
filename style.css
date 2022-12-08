@@ -1,18 +1,18 @@
 /* Write your CSS here! */
 .logo {
   display: grid;
-  grid-template-rows: 0px;
+  grid-template-rows: 5px;
   background: #4242ea;
 }
 .menu {
   display: grid;
-  justify-content: center;
+  margin-left: 200px;
 }
 
 .primary-content {
   display: grid;
   grid-template-rows: 100%;
-  grid-template-columns: 1fr 4fr
+  grid-template-columns: 1fr 4fr;
 }
 
 /* Do not change the CSS below. */
