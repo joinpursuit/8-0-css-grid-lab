@@ -1,10 +1,31 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+  display: grid;
+  /* grid-are: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
+  grid-area: 2 / 1 / 1 / 2;
+}
+
+.menu {
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+}
 /* Do not change the CSS below. */
 
 .header {
   background: #4242ea;
 }
+
 
 .logo img {
   height: 50px;
@@ -25,6 +46,7 @@
   color: white;
   text-decoration: none;
 }
+
 
 .sidebar {
   background: #2d2d2d;
