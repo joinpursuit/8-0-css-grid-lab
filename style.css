@@ -1,4 +1,13 @@
 /* Write your CSS here! */
+.primary-content {
+  display: grid;
+  grid-template-columns: 20% 4fr;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 80%;
+}
 
 /* Do not change the CSS below. */
 
