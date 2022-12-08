@@ -1,8 +1,15 @@
  /* Write your CSS here! */
+
  .primary-content {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 3fr 8fr;
  } 
+ 
+ .header{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+ }
+ 
  /* Do not change the CSS below. */
 
  .header {
