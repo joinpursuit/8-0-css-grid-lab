@@ -3,7 +3,10 @@
 /* Do not change the CSS below. */
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   background: #4242ea;
+  
 }
 
 .logo img {
@@ -42,4 +45,9 @@
   background: yellow;
   padding: 10px;
   text-align: center;
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
