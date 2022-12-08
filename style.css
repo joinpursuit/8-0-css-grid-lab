@@ -2,8 +2,26 @@
 
 /* Do not change the CSS below. */
 
+body {
+  display: grid;
+  grid-template-columns: repeat (4, auto);
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header"
+  "content content content content"
+  "footer footer footer footer";
+}
+
+.primary-content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 .header {
   background: #4242ea;
+  grid-area : header;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .logo img {
@@ -14,6 +32,7 @@
 
 .menu ul {
   padding: 0;
+ 
 }
 
 .menu ul li {
@@ -30,16 +49,21 @@
   background: #2d2d2d;
   color: white;
   text-align: center;
+  
 }
 
 .main {
   background: #ececec;
   height: 750px;
   text-align: center;
+ 
+  
 }
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  grid-area: footer;
 }
+
