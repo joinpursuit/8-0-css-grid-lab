@@ -3,22 +3,27 @@
 /* Do not change the CSS below. */
 
 .header {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 150px;
   background: #4242ea;
+  margin: 0;
 }
 
 .logo img {
-  height: 50px;
+  height: 100px;
   margin: 15px 0 0 15px;
   width: auto;
 }
 
 .menu ul {
-  padding: 0;
+  padding: 25px 0 20px 0;
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  font-size: 150%;
 }
 
 .menu a {
@@ -31,6 +36,14 @@
   color: white;
   text-align: center;
 }
+.primary-content {
+  display: grid;
+  grid-template-columns: 500px auto;
+  margin: 0;
+}
+.primary-content p {
+  font-size: 180%;
+}
 
 .main {
   background: #ececec;
@@ -40,6 +53,8 @@
 
 .footer {
   background: yellow;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
+  height: 80px;
+  font-size: 150%;
 }
