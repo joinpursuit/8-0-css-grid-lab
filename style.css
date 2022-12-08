@@ -1,19 +1,39 @@
 /* Write your CSS here! */
+body {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header" 
+    "content content content content"
+    "footer footer footer footer";
+  height: 100vh;
+}
 
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-area: content;
+}
 /* Do not change the CSS below. */
-
 .header {
   background: #4242ea;
+    grid-area: header;
+    /* height: 150px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  
 }
 
 .menu ul {
   padding: 0;
+ 
 }
 
 .menu ul li {
@@ -36,10 +56,12 @@
   background: #ececec;
   height: 750px;
   text-align: center;
+  
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+  grid-area: footer;
 }
