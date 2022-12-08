@@ -1,5 +1,38 @@
 /* Write your CSS here! */
+body {
+  margin: 20px;
+}
 
+.header {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 450px auto;
+  grid-template-rows: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+ 
+}
+.primary-content {
+  display: grid;
+  grid-template-columns: 400px auto;
+  margin: 0;
+}
+
+.primary-content p {
+  font-size: 200%;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: 70px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footer div {
+  font-size: 1.5em;
+  padding: 15px 0;
+}
 /* Do not change the CSS below. */
 
 .header {
@@ -7,18 +40,20 @@
 }
 
 .logo img {
-  height: 50px;
+  height: 75px;
   margin: 15px 0 0 15px;
-  width: auto;
+  padding: 20px;
+  width: 100px;
 }
 
 .menu ul {
-  padding: 0;
+  padding: 20px 0;
 }
 
 .menu ul li {
   display: inline-block;
   padding: 15px;
+  font-size: 200%;
 }
 
 .menu a {
@@ -32,6 +67,7 @@
   text-align: center;
 }
 
+
 .main {
   background: #ececec;
   height: 750px;
@@ -43,3 +79,5 @@
   padding: 10px;
   text-align: center;
 }
+
+
