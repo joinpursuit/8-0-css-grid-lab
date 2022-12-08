@@ -1,7 +1,15 @@
 /* Write your CSS here! */
+div.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+div.primary-content{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
 
 /* Do not change the CSS below. */
-
 .header {
   background: #4242ea;
 }
