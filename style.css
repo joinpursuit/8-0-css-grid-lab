@@ -1,4 +1,44 @@
 /* Write your CSS here! */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+}
+
+/* ^--primary content must be fixed in order to shift the sidebar section.
+Seems like if sidebar is edited in anyway it affects the main content section
+doesn't make it look like the mock webpage ---v */
+
+/* .siderbar {
+  display: grid;
+  grid-template-rows: 1fr 4fr ; 
+} */
+
+/* main and footer font color is black 
+to match how the mock wedpage looks--v */
+
+.main {
+  color: black
+}
+
+.footer {
+  color: black;
+  height: 30px;
+
+}
+
+.logo img {
+  height: 100px;
+  margin: 15px 0 0 15px;
+}
+
 
 /* Do not change the CSS below. */
 
