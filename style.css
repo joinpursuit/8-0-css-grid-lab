@@ -1,45 +1,66 @@
-/* Write your CSS here! */
+ /* Write your CSS here! */
+ 
+ .primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100%;
+ } 
+ 
+ .logo {
+    display:grid;
+    grid-template-rows: 5px;
+ }
 
-/* Do not change the CSS below. */
+ .menu {
+    display: grid;
+    justify-content: center;
+ }
 
-.header {
+ /* .header{ this code is same as the logo class and menu class - just for change, using that code
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ } */
+ 
+ /* Do not change the CSS below. */
+
+ .header {
   background: #4242ea;
-}
+ }
 
-.logo img {
+ .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
-}
+ }
 
-.menu ul {
+ .menu ul {
   padding: 0;
-}
+ }
 
-.menu ul li {
+ .menu ul li {
   display: inline-block;
   padding: 15px;
-}
+ }
 
-.menu a {
+ .menu a {
   color: white;
   text-decoration: none;
-}
+ }
 
-.sidebar {
+ .sidebar {
   background: #2d2d2d;
   color: white;
   text-align: center;
-}
+ }
 
-.main {
+ .main {
   background: #ececec;
   height: 750px;
   text-align: center;
-}
+ }
 
-.footer {
+ .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
-}
+ }
