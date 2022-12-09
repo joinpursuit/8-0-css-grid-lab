@@ -1,14 +1,25 @@
  /* Write your CSS here! */
-
+ 
  .primary-content {
   display: grid;
-  grid-template-columns: 3fr 8fr;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100%;
  } 
  
- .header{
+ .logo {
+    display:grid;
+    grid-template-rows: 5px;
+ }
+
+ .menu {
+    display: grid;
+    justify-content: center;
+ }
+
+ /* .header{ this code can replace the logo class and menu class - just for change, using that code
     display: grid;
     grid-template-columns: 1fr 2fr;
- }
+ } */
  
  /* Do not change the CSS below. */
 
