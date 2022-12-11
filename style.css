@@ -2,7 +2,6 @@
 
 
 .primary-content {
-  grid-area: content;
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
@@ -10,7 +9,7 @@
 
 .header {
   background: #4242ea;
-  /* grid-area: header; */
+
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -45,7 +44,6 @@
 
 .main {
   background: #ececec;
-  height: 750px;
   text-align: center;
   height: 100vh;
   
@@ -55,6 +53,4 @@
   background: yellow;
   padding: 10px;
   text-align: center;
-  
-
 }
