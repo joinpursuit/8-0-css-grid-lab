@@ -4,16 +4,21 @@
 
 .header {
   background: #4242ea;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  
 }
 
 .logo img {
   height: 50px;
   margin: 15px 0 0 15px;
   width: auto;
+  
 }
 
 .menu ul {
   padding: 0;
+  
 }
 
 .menu ul li {
@@ -24,22 +29,37 @@
 .menu a {
   color: white;
   text-decoration: none;
+
 }
 
 .sidebar {
   background: #2d2d2d;
   color: white;
   text-align: center;
+  
 }
 
 .main {
   background: #ececec;
-  height: 750px;
+  height: 100vh;
   text-align: center;
+  
+  
 }
 
 .footer {
   background: yellow;
   padding: 10px;
   text-align: center;
+
+ 
+}
+/* .container{
+  display:grid;
+  grid-auto-rows: minmax(100px, auto);
+  /* grid-template-columns: minmax(4fr, auto); */
+
+.primary-content{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
