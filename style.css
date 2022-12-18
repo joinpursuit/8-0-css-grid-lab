@@ -1,5 +1,23 @@
 /* Write your CSS here! */
+.header {
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-areas: "header";
+}
+.menu {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  text-align: left; 
+}
+.logo {
+  grid-area: header;
 
+}
+
+.primary-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
 /* Do not change the CSS below. */
 
 .header {
