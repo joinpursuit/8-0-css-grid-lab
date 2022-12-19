@@ -1,4 +1,19 @@
 /* Write your CSS here! */
+body{
+  margin: 0;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  min-height: 0.5em
+}
+
+.primary-content{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
 
 /* Do not change the CSS below. */
 
