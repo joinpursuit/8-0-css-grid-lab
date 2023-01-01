@@ -1,5 +1,13 @@
 /* Write your CSS here! */
 
+
+   .header, .primary-content {
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+ 
+
+
 /* Do not change the CSS below. */
 
 .header {
@@ -43,3 +51,5 @@
   padding: 10px;
   text-align: center;
 }
+
+
